@@ -1,14 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="To-Do.css">
-</head>
-<body>
-    
+<html>
+    <head>
+        <link rel="stylesheet" href="To-Do.css">
+        <title>To-Do-List</title>
+        <link id="title_icon" rel="icon" href="data:image/png;base64,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">
+    </head>
+    <body >
+        <div id="div1">
+            <h1>To-Do List</h1>
+            <input id="add-task" type="text" placeholder=" Add a new task"><br>
+            <select class="pri"> 
+                <option>Low pority</option>
+                <option>Medium Priority</option>
+                <option>High Priority</option>
+            </select>
+            <select class="pri">
+                 <option>Work </option>
+                 <option>Personal </option>
+                 <option>Shopping </option>
+                 <option>Others </option>     
+            </select><br>
+            <input type="date" id="date"><br>
+            <button id="addtask">Add Task</button><br>
+            <input type="text" id="search" placeholder="Search Tasks ..."><br>
+            <button id="com">Clear Completed Tasks</button><br>
+            <div id="div2">
 
-    <script src="To-Do.js"></script>
-</body>
+            </div>
+        </div>
+        <script src="To-Do.js"></script>
+    </body>
 </html>

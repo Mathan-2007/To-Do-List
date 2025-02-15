@@ -1,0 +1,67 @@
+#div1{
+    text-align: center;
+    position: relative;
+    top: 90px; 
+    background-color: aliceblue;
+    width:33%;
+    margin-left: 32%;
+    padding-top: 2.5%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+}
+#add-task{
+    width: 330px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: left;
+    margin-bottom:13px;
+}
+h1 {
+    font-size: 45px;
+}
+.pri {
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom:13px;
+    font-size: 16px;
+}
+#date{
+    width: 254px;
+    height: 35px; 
+    border-radius: 5px;
+    margin-bottom:13px;
+    font-size: 16px;
+}
+#addtask{
+    width: 90px;
+    height: 35px; 
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(5, 182, 5);
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 13px;
+}
+body{
+    background-color: rgb(219, 224, 199);
+}
+#search{
+    width: 330px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: left;
+    margin-bottom:13px;
+}
+#com{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(5, 182, 5);
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 13px;
+}
