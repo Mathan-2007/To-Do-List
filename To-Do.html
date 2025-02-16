@@ -7,8 +7,8 @@
     <body >
         <div id="div1">
             <h1>To-Do List</h1>
-            <input id="add-task" type="text" placeholder=" Add a new task"><br>
-            <select class="pri"> 
+            <input id="add-task" type="text" placeholder=" Add a new task" ><br>
+            <select class="pri" id="pri"> 
                 <option>Low pority</option>
                 <option>Medium Priority</option>
                 <option>High Priority</option>
@@ -20,13 +20,16 @@
                  <option>Others </option>     
             </select><br>
             <input type="date" id="date"><br>
-            <button id="addtask">Add Task</button><br>
+            <button id="addtask" onclick=abc()>Add Task</button><br>
             <input type="text" id="search" placeholder="Search Tasks ..."><br>
             <button id="com">Clear Completed Tasks</button><br>
-            <div id="div2">
-
-            </div>
+            <ul id="ul">
+                      <li>hi <button class="del" onclick="del(event)">delete</button> <button class="com" onclick="com()">complete</button></li>
+            </ul>
         </div>
         <script src="To-Do.js"></script>
     </body>
 </html>
+<script src="To-Do.js">
+
+</script>

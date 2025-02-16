@@ -65,3 +65,32 @@ body{
     font-size: large;
     margin-bottom: 13px;
 }
+#ul{
+    width:420px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    border-radius: 5px ;
+}
+.del{
+   margin-left: 120px;
+   background-color:  rgb(5, 182, 5);
+   border-radius: 5px;
+   color: white;
+   margin-right: 20px;
+   font-size: 17px;
+   margin-top: 7px;
+   margin-bottom: 8px;
+}
+.com{
+   
+    background-color:  rgb(5, 182, 5);
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    margin-top: 7px;
+}
