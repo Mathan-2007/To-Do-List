@@ -2,7 +2,7 @@ function abc(){
     var inp = document.getElementById("add-task").value;
     var date=document.getElementById("date").value;
     if(inp==''||date==''){
-        alert("please enter new task or date")}
+        alert("please enter new task and date")}
     else{
     var div2=document.getElementById("ul")
 var out =document.createElement("tr");
