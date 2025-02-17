@@ -8,7 +8,8 @@ function abc(){
 var out =document.createElement("tr");
 out.innerHTML='<td class="tablee">'+inp +'</td id="d">'+'<td>'+date+'</td>'+'<td id="td2">'+'<button class="del" onclick="del(event)">Delete</button>'+'</td>'+'<td id="td3">'+'<button  class="com" onclick="com(event)">Complete</button>'+'</td>'; 
 div2.append(out);
-document.getElementById("add-task").value = '';}
+document.getElementById("add-task").value = '';
+    date='';}
 }
 function del (event){
    event.target.parentElement.parentElement.remove()
